@@ -1,5 +1,7 @@
 // Parte da criação do servidor
 import express, { Application } from "express";
+import cors from 'cors'
+import routes from "@/routes";
 
 export default class App {
   app: Application;
@@ -18,9 +20,15 @@ export default class App {
     });
   }
 
-  private middlewares() {}
+  private middlewares() {
+    this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+    this.app.use(cors());
+  }
 
-  private routes() {}
+  private routes() {
+    this.app.use(routes)
+  }
 
   private exceptionHandler() {}
 }
