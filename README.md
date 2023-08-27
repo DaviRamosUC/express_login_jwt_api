@@ -49,7 +49,7 @@
 ```/auth/sign-in```
 ![image](https://github.com/DaviRamosUC/express_login_jwt_api/assets/73002604/29eec364-c69f-4a92-82fe-175b76b51262)
 
-```/users```
+```/users```<br>
 ![image](https://github.com/DaviRamosUC/express_login_jwt_api/assets/73002604/ffca292a-fa18-408b-b8f2-03fa30c63c0e)
 
 
