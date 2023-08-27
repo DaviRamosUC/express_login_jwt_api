@@ -1,9 +1,10 @@
-import { Router } from "express";
+import { Router } from 'express'
 
-import auth from "./controllers/AuthController";
+import auth from '@app/Auth/controllers/AuthController'
 
-const routes = Router();
+const routes = Router()
 
-routes.post("/auth/registrar", auth.create);
+routes.post('/auth/sign-in', auth.create)
+routes.delete('/auth/sign-out', auth.destroy)
 
-export default routes;
+export default routes
