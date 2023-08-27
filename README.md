@@ -38,31 +38,23 @@
 1. git clone https://github.com/DaviRamosUC/express_login_jwt_api.git
 2. ```cd express_login_jwt_api```
 3. ```npm install```
-3. ```docker-composer up -d```
-4. ```npm run dev```
+4. ```cp .env.exemple .env```
+5. ```docker-composer up -d```
+6. ```npm run dev```
 
 
 <a id="rotas"></a>
 ## Repostas e rotas
 
 ```/auth/sign-in```
-{
-    "user": {
-        "id": 123,
-        "fullName": "Admin",
-        "email": "admin@admin.com"
-    }
-}
+![image](https://github.com/DaviRamosUC/express_login_jwt_api/assets/73002604/29eec364-c69f-4a92-82fe-175b76b51262)
 
 ```/users```
-[
-    {
-        "id": "456",
-        "email": "jhondoe@exemple.com"
-    }
-]
+![image](https://github.com/DaviRamosUC/express_login_jwt_api/assets/73002604/ffca292a-fa18-408b-b8f2-03fa30c63c0e)
+
 
 ```/auth/sign-out```
-{} status 204
+![image](https://github.com/DaviRamosUC/express_login_jwt_api/assets/73002604/8589fa9a-6e66-48c8-b711-e475f0d8a137)
+
 
 Made by <a href="https://github.com/DaviRamosUC">@daviramosuc<a>
